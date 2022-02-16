@@ -1,0 +1,131 @@
+.Containerg{
+  display:flex;
+  width:100%;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.head{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.card {
+  perspective: 150rem;
+  position: relative;
+  height: 30rem;
+  width: 400px;
+  margin: 2rem;
+  box-shadow: none;
+  border:none;
+  background: none;
+  margin:20px;
+  /* margin-left: 35px; */
+}
+
+.card-side {
+  height: 25rem;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  padding:2rem;
+  color: white
+}
+
+.card-side.back1 {
+  transform: rotateY(-180deg);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+}
+
+.card-side.front1 {
+  background-color: #0093E9;
+  background-image: #fff;
+}
+
+.card-side.front1 {
+  background-color: #0093E9;
+  color:black;
+  background-image: url('../images/child.gif');
+}
+
+.card:hover .card-side.front1 {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back1 {
+  transform: rotateY(0deg);
+}
+.cbtn{
+  border:none;
+  margin-top:30px;
+  padding:10px 30px;
+  border-radius: 10px;
+  z-index:1000000;
+}
+.cbtn:hover{
+  cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cbtn:active{
+  background-color: #ddd;
+  
+}
+/* 2 */
+
+.card-side.back2 {
+  transform: rotateY(-180deg);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+}
+
+.card-side.front2 {
+  background-color: #0093E9;
+  background-image: #fff;
+}
+
+.card-side.front2 {
+  background-color: #0093E9;
+  
+  background-image: url('../images/teacher.gif');
+}
+
+.card:hover .card-side.front2 {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back2 {
+  transform: rotateY(0deg);
+}
+
+/* 3 */
+
+.card-side.back3 {
+  transform: rotateY(-180deg);
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+}
+
+.card-side.front3 {
+  background-color: #0093E9;
+  background-image: #fff;
+}
+
+.card-side.front3 {
+  background-color: #0093E9;
+  background-image: url('../images/parent.gif');
+}
+
+.card:hover .card-side.front3 {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-side.back3 {
+  transform: rotateY(0deg);
+}

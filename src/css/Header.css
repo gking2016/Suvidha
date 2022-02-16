@@ -1,0 +1,39 @@
+.header-leftg{
+   position: relative;
+   top:40px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.header-leftg img{
+    width: 75vw;
+    height: 75vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px;
+}
+
+.header-leftg div{
+padding:20px;
+background-color: white;
+position: relative;
+top: -310px;
+left:60px;
+border-radius: 10px;;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header-leftg div button {
+    margin:20px;
+    border:none;
+    background-color:#54BAB9;
+    padding:10px 30px;
+    border-radius:5px;
+}  
+.header-leftg div button:active{
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.header-leftg div button:hover{
+    cursor: pointer;
+}
+

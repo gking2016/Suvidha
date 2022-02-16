@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    }
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    user-select: none;
+    overflow-x: hidden;
+    background-color:rgb(243, 243, 243);
+}
+a{
+    color: rgb(27, 25, 25);
+}
+img{
+    display: block;
+    width: 100%;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 0.87rem;
+}
+
+h4{
+    font-size: 0.8rem;
+}
+h5{
+    font-size: 0.77;
+}
+.containe{
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    color: black;
+    grid-template-columns: 14rem auto 23rem;
+}
+
+aside{
+    height: 100vh;
+    
+}
+aside .top{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
+}
+aside .logo img{
+    width: 2rem;
+    height: 2rem;
+
+}
+aside .logo{
+    display: flex;
+    gap: 0.8rem;
+}
+aside .close{
+    display: none;
+}
+    
+aside .sidebar{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 3rem;
+    height: 74vh;
+    
+
+}
+aside h3{
+    font-weight: 500;
+}
+
+aside .sidebar a{
+    display: flex;
+    margin-left: 2rem;
+    gap: 1rem;
+    align-items: center;
+    position: relative;
+    height: 3.7rem;
+    transition: all 300ms ease;
+    color: #7d8da1;
+}
+
+aside .sidebar a span {
+    font-size: 1.6rem;
+    transition: all 300ms ease;
+}
+
+aside .sidebar a:last-child {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;  
+}
+
+aside .sidebar a.active {
+    background: rgba(132,139,200,0.18);
+    color: #7380ec;
+    margin-left: 0
+    ;
+}
+aside .sidebar a.active:before {
+    content: "";
+    width: 6px;
+    height: 100%;
+    background: #7380ec;
+}
+aside .sidebar a.active span{
+    color: #7380ec;
+    margin-left: calc(1rem - 3px);
+}
+aside .sidebar a:hover{
+    color: #7380ec;
+}
+aside .sidebar a:hover span {
+    margin-left: 1rem;
+}

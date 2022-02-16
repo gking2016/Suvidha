@@ -1,0 +1,69 @@
+.profile-nav{
+    display:flex;
+    justify-content:space-between;
+    padding:30px;
+    flex-wrap: wrap;
+    background-color:#FBF8F1;
+}
+.pb{
+    margin: 5px;
+    color:black;
+    margin-top:-10px;
+    position: relative;
+    top:-25px;
+}
+
+.pbtn{
+    background-color:#ffff;
+    border:1px solid black;
+    padding:10px 30px;
+    color:#1865f2;
+    border-radius:5px;
+    font-size:15px;
+}
+.pbtn:hover{
+    background-color:#1865f2;
+    color:#fff;
+    cursor: pointer;
+}
+.pbtn:active{
+    background-color:#1865f2;
+    color:#fff;
+    cursor: pointer;
+}
+
+.mystuff{
+    padding:0px 200px 50px 70px;
+    border-right:2px solid #ddd;
+    width: fit-content;
+}
+
+.active{
+    background-color:#ddd;
+    color:#1865f2;
+    padding:15px 50px
+}
+.mystuff h4{
+color:rgb(119, 119, 119);
+letter-spacing:2px;
+
+}
+.mystuff ul li{ 
+    list-style: none;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.mystuff ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+@media screen and (max-width:400px){
+    .mystuff{
+        padding:0px 50px 50px 70px;
+        border: none;
+        width: fit-content;
+    }
+}

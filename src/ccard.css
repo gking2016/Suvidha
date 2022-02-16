@@ -1,0 +1,40 @@
+.ccontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.ccard{
+    width: 18rem;
+    display: flex;
+    padding:20px;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cimg{
+    height: 200px;
+}
+.cbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding:10px
+}
+
+.cbody button{
+    background:#064663;
+    border:none;
+    padding:10px 30px;
+    color:#fff;
+    border-radius: 5px;
+}
